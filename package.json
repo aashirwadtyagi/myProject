@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A new backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascipt",
@@ -12,7 +13,8 @@
   ],
   "author": "Aashirwad",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+
+  "dependencies": {
+    "express": "^4.17.1","nodemon": "^2.0.0-beta3"
   }
 }
