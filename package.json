@@ -13,8 +13,11 @@
   ],
   "author": "Aashirwad",
   "license": "ISC",
-
   "dependencies": {
-    "express": "^4.17.1","nodemon": "^2.0.0-beta3"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.0-beta3"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
